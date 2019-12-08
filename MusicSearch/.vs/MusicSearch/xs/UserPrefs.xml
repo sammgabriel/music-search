@@ -1,31 +1,4 @@
-﻿<Properties StartupConfiguration="{760D1EC1-A089-40BA-ABDE-D913DE8EEFE4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MusicSearch/Pages/Index.cshtml">
-    <Files>
-      <File FileName="MusicSearch/Pages/Index.cshtml" Line="8" Column="27" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="MusicSearch" expanded="True">
-            <Node name="MusicSearch" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="Index.cshtml" selected="True" />
-              </Node>
-              <Node name="Properties" expanded="True" />
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MusicSearch FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+﻿<Properties StartupConfiguration="{98DBE096-4A00-4E2C-8C96-4BCAC5D4F6AF}|Default">
+  <MonoDevelop.Ide.ItemProperties.MusicSearch FirstBuild="True" />
   <MultiItemStartupConfigurations />
 </Properties>
