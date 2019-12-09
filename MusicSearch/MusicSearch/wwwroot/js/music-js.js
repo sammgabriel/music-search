@@ -6,16 +6,36 @@ $("#by-name").on("click", function () {
     $("#song-form").toggle();
 });
 
+
 $("#submit").on("click", function () {
 
-    var artist = $("#artist").val();
-    var songName = $("#song").val();
-    var url = "https://api.lyrics.ovh/v1/" + artist + "/" + songName;
+    let artist = $("#artist").val();
+    let songName = $("#song").val();
+    let lyricsUrl = "https://api.lyrics.ovh/v1/" + artist + "/" + songName;
+    let lyricLines;
 
-    $.getJSON(url, function (result) {
+    let request = $.ajax({
 
-        $("#name-lyrics").append("<h2>" + "Lyrics" + "</h2>");
+        url: lyricsUrl,
+        type: 'GET',
+        dataType: 'json',
+        success: function (result) {
 
-        $("#name-lyrics").append(result.lyrics);
+            lyricLines = result.lyrics;
+
+        }
     });
+
+    $.when(request).then(function () {
+
+        let lines = lyricLines.split("\n");
+
+        $.each(lines, function (index, line) {
+
+            $("#name-lyrics").append(line + "<br />");
+        });
+    });
+
 });
+
+
