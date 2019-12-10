@@ -6,5 +6,59 @@
     "genre": "Pop",
     "url": "https://www.youtube.com/watch?v=_RKinK-O5N8",
     "img": "https://upload.wikimedia.org/wikipedia/en/4/4b/Ariana_Grande_-_Dangerous_Woman_%28Official_Album_Cover%29.png"
+  },
+
+  {
+    "artist": "2Pac",
+    "song": "Do For Love",
+    "album": "R U Still Down? (Remember Me)",
+    "genre": "Hip Hop",
+    "url": "https://www.youtube.com/watch?v=VjJpf_5FFJo",
+    "img": "https://upload.wikimedia.org/wikipedia/en/b/bf/DoforLove.jpg"
+  },
+
+  {
+    "artist": "Martin Garrix",
+    "song": "Ocean",
+    "album": " ",
+    "genre": "Pop, EDM",
+    "url": "https://www.youtube.com/watch?v=BDocp-VpCwY",
+    "img": "https://upload.wikimedia.org/wikipedia/en/f/fd/Martin_Garrix_Ocean.png"
+  },
+
+  {
+    "artist": "Paramore",
+    "song": "Misery Business",
+    "album": "Riot!",
+    "genre": "Pop punk, Emo",
+    "url": "https://www.youtube.com/watch?v=aCyGvGEtOwc",
+    "img": "https://upload.wikimedia.org/wikipedia/en/b/bd/Misery_Business-Paramore_single.jpg"
+  },
+
+  {
+    "artist": "New Edition",
+    "song": "Can You Stand The Rain",
+    "album": "Heart Break",
+    "genre": "R&B, Soul",
+    "url": "https://www.youtube.com/watch?v=7flrKMGfwjw",
+    "img": "https://upload.wikimedia.org/wikipedia/en/b/b2/Canyoustandtherain.jpg"
+  },
+
+  {
+    "artist": "Christina Aguilera",
+    "song": "Genie in a Bottle",
+    "album": "Christina Aguilera",
+    "genre": "Pop",
+    "url": "https://www.youtube.com/watch?v=kIDWgqDBNXA",
+    "img": "https://upload.wikimedia.org/wikipedia/en/4/42/Genie_in_a_Bottle.png"
+  },
+
+  {
+    "artist": "Cassie",
+    "song": "Me & U",
+    "album": "Cassie",
+    "genre": "R&B",
+    "url": "https://www.youtube.com/watch?v=zVJ5gsLeCSM",
+    "img": "https://upload.wikimedia.org/wikipedia/en/b/b1/CASSIE_ME%26U.jpg"
   }
 ]

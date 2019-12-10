@@ -57,7 +57,8 @@ $("#submit").on("click", function () {
                 $("#audio").attr("href", info.url);
                 $("#audio").attr("target", "_blank");
                 $("#audio").text("Listen To This Song");
-            }
+
+            } 
         }); 
     });
 });
@@ -65,4 +66,9 @@ $("#submit").on("click", function () {
 $("#clear").on("click", function () {
 
     $("#name-lyrics").empty();
+    $("#song-info").empty();
+    $("#cover").attr("src", "");
+    $("#audio").attr("href", "");
+    $("#audio").attr("target", "");
+    $("#audio").text("");
 });
