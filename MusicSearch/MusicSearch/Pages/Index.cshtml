@@ -1,15 +1,18 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <button id="by-name">Search</button>
+    <button id="clear">Clear</button>
     <div id="song-form">
         <label for="artist">Artist: </label>
-        <input type="text" id="artist" /><br />
+        <input type="text" id="artist" />
         <label for="song">Song Name: </label>
-        <input type="text" id="song" /><br />
+        <input type="text" id="song" />
         <input type="submit" value="Submit" id="submit" />
     </div>
 </div>
@@ -19,7 +22,9 @@
         <div class="col-6">
             <div id="name-lyrics"></div>
         </div>
-        <div class="col-6"></div>
+        <div class="col-6">
+
+        </div>
     </div>
 </div>
 

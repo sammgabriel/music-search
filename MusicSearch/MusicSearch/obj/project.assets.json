@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sammgabriel/Documents/IT 372/music-search/MusicSearch/MusicSearch/MusicSearch.csproj",
+      "projectUniqueName": "/Users/sammgabriel/Documents/IT 426/MusicSearch/MusicSearch/MusicSearch.csproj",
       "projectName": "MusicSearch",
-      "projectPath": "/Users/sammgabriel/Documents/IT 372/music-search/MusicSearch/MusicSearch/MusicSearch.csproj",
+      "projectPath": "/Users/sammgabriel/Documents/IT 426/MusicSearch/MusicSearch/MusicSearch.csproj",
       "packagesPath": "/Users/sammgabriel/.nuget/packages/",
-      "outputPath": "/Users/sammgabriel/Documents/IT 372/music-search/MusicSearch/MusicSearch/obj/",
+      "outputPath": "/Users/sammgabriel/Documents/IT 426/MusicSearch/MusicSearch/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -6,7 +6,6 @@ $("#by-name").on("click", function () {
     $("#song-form").toggle();
 });
 
-
 $("#submit").on("click", function () {
 
     let artist = $("#artist").val();
@@ -38,4 +37,7 @@ $("#submit").on("click", function () {
 
 });
 
+$("#clear").on("click", function () {
 
+    $("#name-lyrics").empty();
+});
