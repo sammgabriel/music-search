@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{FB9D57F4-355A-4FEA-9ACC-1F1017884046}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MusicSearch/Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MusicSearch/Pages/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="MusicSearch/wwwroot/data/information.json" Line="44" Column="82" />
-      <File FileName="MusicSearch/wwwroot/js/music-js.js" Line="61" Column="15" />
-      <File FileName="MusicSearch/Pages/Index.cshtml" Line="1" Column="1" />
+      <File FileName="MusicSearch/wwwroot/js/music-js.js" Line="88" Column="19" />
+      <File FileName="MusicSearch/Pages/Index.cshtml" Line="8" Column="44" />
+      <File FileName="MusicSearch/Pages/Shared/_Layout.cshtml" Line="14" Column="72" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,8 +12,10 @@
             <Node name="MusicSearch" expanded="True">
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Shared" expanded="True" />
-                <Node name="Index.cshtml" expanded="True" selected="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+                <Node name="Index.cshtml" expanded="True" />
               </Node>
               <Node name="Services" expanded="True" />
               <Node name="wwwroot" expanded="True">
