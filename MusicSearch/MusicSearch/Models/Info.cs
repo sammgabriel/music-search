@@ -8,8 +8,6 @@ namespace MusicSearch.Models
     public class Info
     {
 
-        public long Id { get; set; }
-
         public string Artist { get; set; }
 
         public string Song { get; set; }
@@ -20,10 +18,9 @@ namespace MusicSearch.Models
 
         public string Url { get; set; }
 
-        [JsonPropertyName("img")]
-        public string Image { get; set; }
+        public string Img { get; set; }
 
-        public override string ToString() => JsonSerializer.Serialize<Info>(this);
+        public override string ToString() => JsonSerializer.Serialize(this);
     }
 
 }

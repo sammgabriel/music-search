@@ -1,8 +1,10 @@
-﻿{
-  "artist": "Ariana Grande",
-  "song": "Sometimes",
-  "album": "Dangerous Woman",
-  "genre": "Pop",
-  "url": "https://open.spotify.com/track/1FlYPPzFJUNh3KRE36pYbe?si=SfktaUJ5TUiPo8WdmsUQ-g",
-  "img": "https://en.wikipedia.org/wiki/Dangerous_Woman#/media/File:Ariana_Grande_-_Dangerous_Woman_(Official_Album_Cover).png"
-}
+﻿[
+  {
+    "artist": "Ariana Grande",
+    "song": "Sometimes",
+    "album": "Dangerous Woman",
+    "genre": "Pop",
+    "url": "https://www.youtube.com/watch?v=_RKinK-O5N8",
+    "img": "https://upload.wikimedia.org/wikipedia/en/4/4b/Ariana_Grande_-_Dangerous_Woman_%28Official_Album_Cover%29.png"
+  }
+]

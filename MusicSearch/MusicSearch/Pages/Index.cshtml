@@ -7,23 +7,25 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <button id="by-name">Search</button>
-    <button id="clear">Clear</button>
-    <div id="song-form">
+    <button class="mt-4" id="clear">Clear</button>
+    <div class="mt-4" id="song-form">
         <label for="artist">Artist: </label>
-        <input type="text" id="artist" />
+        <input class="mr-3" type="text" id="artist" />
         <label for="song">Song Name: </label>
         <input type="text" id="song" />
         <input type="submit" value="Submit" id="submit" />
     </div>
 </div>
 
-<div class="container">
+<div class="container mt-4">
     <div class="row">
-        <div class="col-6">
+        <div class="col-6 text-center">
             <div id="name-lyrics"></div>
         </div>
-        <div class="col-6">
-
+        <div class="col-6 text-center">
+               <img class="mb-3" id="cover" />
+               <div id="song-info"></div>
+               <a id="audio"></a>
         </div>
     </div>
 </div>
